@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap");
+
+:root {
+  /* Global color variables */
+  --primary-color: #9b0065;
+  --secondary-color: #ff4b1d;
+  --tertiary-color: #ff9f1c;
+  --darkest-gray: #1f1f1f;
+  --lightest-gray: #f5f5f5;
+  --white: #fff;
+  --black: #000;
+  --gradient-primary: -webkit-linear-gradient(
+    100deg,
+    var(--primary-color),
+    var(--secondary-color) 50%
+  );
+  --gradient-primary-reset: -webkit-linear-gradient(
+    100deg,
+    var(--secondary-color),
+    var(--secondary-color) 50%
+  );
+  /* Global font variables */
+  --header-font: "Lobster", cursive;
+  --body-font: "Lato", sans-serif;
+}
+
+/* Global margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: var(--lightest-gray);
+  max-width: 100vw;
+  min-height: 100vh;
+}
